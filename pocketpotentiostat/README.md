@@ -1,9 +1,8 @@
 # Potentiostat Firmware
 
-This is a cleaned-up ESP32 firmware for a pocket potentiostat using:
 
 ## Hardware Components
-- **ESP32 Dev Module** (changed from ESP32-S2 for better compatibility)
+- **ESP32 Dev Module** 
 - **Adafruit MCP4725 DAC** (I2C address 0x60) for voltage output
 - **Adafruit ADS1115 ADC** (I2C address 0x48) for current measurement
 - **TIA (Trans-impedance Amplifier)** with 10kΩ resistor
@@ -44,8 +43,3 @@ Edit the parameters in `main.cpp` and `hw.hpp` to match your hardware:
 - TIA resistor value
 - Reference voltage
 - Safety limits
-
-## Build Status
-✅ Successfully compiles with PlatformIO
-✅ All build errors resolved
-✅ Library dependencies properly managed
